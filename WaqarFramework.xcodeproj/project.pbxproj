@@ -10,6 +10,10 @@
 		066D0DBA27463E1F00746AE9 /* WaqarFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 066D0DB927463E1F00746AE9 /* WaqarFramework.docc */; };
 		066D0DBB27463E1F00746AE9 /* WaqarFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 066D0DB827463E1F00746AE9 /* WaqarFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		066D0DC227463E4F00746AE9 /* FruitGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066D0DC127463E4F00746AE9 /* FruitGenerator.swift */; };
+		066F1F39274662D0004867E7 /* Mainn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 066F1F38274662D0004867E7 /* Mainn.storyboard */; };
+		066F1F3B27466335004867E7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066F1F3A27466335004867E7 /* MainViewController.swift */; };
+		066F1F55274665AB004867E7 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066F1F54274665AB004867E7 /* MainNavigationController.swift */; };
+		4F0F54884A2435EC904689E9 /* Pods_WaqarFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EF4120F06445A505631DCF /* Pods_WaqarFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +21,15 @@
 		066D0DB827463E1F00746AE9 /* WaqarFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaqarFramework.h; sourceTree = "<group>"; };
 		066D0DB927463E1F00746AE9 /* WaqarFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WaqarFramework.docc; sourceTree = "<group>"; };
 		066D0DC127463E4F00746AE9 /* FruitGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitGenerator.swift; sourceTree = "<group>"; };
+		066F1F38274662D0004867E7 /* Mainn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mainn.storyboard; sourceTree = "<group>"; };
+		066F1F3A27466335004867E7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		066F1F54274665AB004867E7 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		16F678AACED732D5E515D44B /* Pods-WaqarFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaqarFramework.debug.xcconfig"; path = "Target Support Files/Pods-WaqarFramework/Pods-WaqarFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		17EF4120F06445A505631DCF /* Pods_WaqarFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaqarFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DCDA0913D7C40E4DB549D7 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		39C507A11C3F40437592EC9B /* Pods-WaqarFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaqarFramework.release.xcconfig"; path = "Target Support Files/Pods-WaqarFramework/Pods-WaqarFramework.release.xcconfig"; sourceTree = "<group>"; };
+		43163E2941F100EEE33E7328 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3397C7E200076E8B561833 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0F54884A2435EC904689E9 /* Pods_WaqarFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +49,8 @@
 			children = (
 				066D0DB727463E1F00746AE9 /* WaqarFramework */,
 				066D0DB627463E1F00746AE9 /* Products */,
+				A342BEE1A0F5E69138B2FD38 /* Pods */,
+				8D353D6385734077EDD81B53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +68,31 @@
 				066D0DB827463E1F00746AE9 /* WaqarFramework.h */,
 				066D0DB927463E1F00746AE9 /* WaqarFramework.docc */,
 				066D0DC127463E4F00746AE9 /* FruitGenerator.swift */,
+				066F1F38274662D0004867E7 /* Mainn.storyboard */,
+				066F1F3A27466335004867E7 /* MainViewController.swift */,
+				066F1F54274665AB004867E7 /* MainNavigationController.swift */,
 			);
 			path = WaqarFramework;
+			sourceTree = "<group>";
+		};
+		8D353D6385734077EDD81B53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17EF4120F06445A505631DCF /* Pods_WaqarFramework.framework */,
+				43163E2941F100EEE33E7328 /* Pods_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A342BEE1A0F5E69138B2FD38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16F678AACED732D5E515D44B /* Pods-WaqarFramework.debug.xcconfig */,
+				39C507A11C3F40437592EC9B /* Pods-WaqarFramework.release.xcconfig */,
+				DA3397C7E200076E8B561833 /* Pods-Example.debug.xcconfig */,
+				22DCDA0913D7C40E4DB549D7 /* Pods-Example.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +113,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 066D0DBE27463E1F00746AE9 /* Build configuration list for PBXNativeTarget "WaqarFramework" */;
 			buildPhases = (
+				5787FABE85074B6DC63D05D4 /* [CP] Check Pods Manifest.lock */,
 				066D0DB027463E1F00746AE9 /* Headers */,
 				066D0DB127463E1F00746AE9 /* Sources */,
 				066D0DB227463E1F00746AE9 /* Frameworks */,
@@ -95,6 +135,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					066D0DB427463E1F00746AE9 = {
@@ -125,17 +166,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066F1F39274662D0004867E7 /* Mainn.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5787FABE85074B6DC63D05D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaqarFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		066D0DB127463E1F00746AE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066F1F3B27466335004867E7 /* MainViewController.swift in Sources */,
 				066D0DC227463E4F00746AE9 /* FruitGenerator.swift in Sources */,
+				066F1F55274665AB004867E7 /* MainNavigationController.swift in Sources */,
 				066D0DBA27463E1F00746AE9 /* WaqarFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +336,7 @@
 		};
 		066D0DBF27463E1F00746AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F678AACED732D5E515D44B /* Pods-WaqarFramework.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +367,7 @@
 		};
 		066D0DC027463E1F00746AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C507A11C3F40437592EC9B /* Pods-WaqarFramework.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;

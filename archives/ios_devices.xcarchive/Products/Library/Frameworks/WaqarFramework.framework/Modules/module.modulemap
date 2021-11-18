@@ -1,0 +1,11 @@
+framework module WaqarFramework {
+  umbrella header "WaqarFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module WaqarFramework.Swift {
+    header "WaqarFramework-Swift.h"
+    requires objc
+}
