@@ -8,4 +8,5 @@ Pod::Spec.new do |spec|
   spec.summary      = 'It is a test framework build by waqar'
   spec.source       = { :git => 'https://github.com/WaqarKhalid/WaqarFramework.git', :tag => "0.3.0" } 
   spec.vendored_framework    = 'WaqarFramework.xcframework'
+  s.dependency 'SDWebImage'
 end
